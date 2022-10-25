@@ -1,0 +1,4 @@
+name = "L6Testing"
+uuid = "12a8c696-9afa-4891-b56f-a95e8a68aa4d"
+authors = ["Mauro Werder <mauro3@runbox.com>"]
+version = "0.1.0"
