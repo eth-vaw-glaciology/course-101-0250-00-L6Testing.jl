@@ -1,0 +1,23 @@
+# Showcase unit and integration testing
+
+This is for Lecture 6 of course
+https://eth-vaw-glaciology.github.io/course-101-0250-00/
+
+It demonstrates a typical work-flow of mine which I committed such
+that commit history retraces that workflow:
+- start coding ([repo state](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/tree/8d3d875991e3010216b321413f34cb7ee01b8aa8))
+- sprinkle a reference test within the script itself ([script
+  state](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/blob/580eebd9287fb7c547520b3e2863a3ce599e8207/scripts/car_travel.jl))
+- refactor and sprinkle a unit-test within the script itself ([script
+  state](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/blob/33b669969b1227289b1059b9ce01baf3ced349e1/scripts/car_travel.jl))
+- move tests to `test/` directory
+  ([runtests.jl](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/blob/5b41f800039f77f4b1024393180733b396ee3c09/test/runtests.jl))
+
+Here a link to the commits:
+https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/commits/master
+
+
+TODO:
+- `[![CI action](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/CI.yml)`
+- setup CI with github Actions:
+([CI.yml](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/blob/master/.github/workflows/CI.yml))
