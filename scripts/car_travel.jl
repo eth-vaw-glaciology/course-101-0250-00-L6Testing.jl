@@ -2,6 +2,20 @@
 # using Plots
 # pyplot()
 
+function update_position(X, V, dir, dt, L)
+    X = X + dir*V*dt
+    if X > L
+        dir = -1      # if beyond L, go back (left)
+    elseif X < 0
+        dir = 1       # if beyond 0, go back (right)
+    end
+    return X, dir
+end
+
+# a unit test
+using Test
+@test update_position(10, 0, 1, 123, 123) == (10, 1)
+
 function car_travel_1D()
     # Physical parameters
     V     = 113.0          # speed, km/h
@@ -17,12 +31,7 @@ function car_travel_1D()
     # Time loop
     for it = 2:nt
         T[it] = T[it-1] + dt
-        X[it] = X[it-1] + dir*V*dt  # move the car
-        if X[it] > L
-            dir = -1      # if beyond L, go back (left)
-        elseif X[it] < 0
-            dir = 1       # if beyond 0, go back (right)
-        end
+        X[it], dir = update_position(X[it - 1], V, dir, dt, L)
     end
     # Visualisation
     # display(scatter(T, X, markersize=5, xlabel="time, hrs", ylabel="distance, km", framestyle=:box, legend=:none))
