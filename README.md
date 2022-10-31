@@ -1,7 +1,6 @@
 # Showcase unit and integration testing
 
-This is for Lecture 6 of course
-https://eth-vaw-glaciology.github.io/course-101-0250-00/
+This is for Lecture 6 of course https://pde-on-gpu.vaw.ethz.ch
 
 It demonstrates a typical work-flow of mine which I committed such
 that commit history retraces that workflow:
