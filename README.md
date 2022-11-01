@@ -1,3 +1,5 @@
+[![CI action](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/ci.yml)
+
 # Showcase unit and integration testing
 
 This is for Lecture 6 of course https://pde-on-gpu.vaw.ethz.ch
@@ -14,9 +16,3 @@ that commit history retraces that workflow:
 
 Here a link to the commits:
 https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/commits/master
-
-
-TODO:
-- `[![CI action](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/actions/workflows/CI.yml)`
-- setup CI with github Actions:
-([CI.yml](https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/blob/master/.github/workflows/CI.yml))
