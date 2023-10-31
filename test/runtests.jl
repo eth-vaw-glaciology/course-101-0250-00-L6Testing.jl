@@ -1,6 +1,7 @@
+using Test
+
 include("../scripts/car_travel.jl")
 
-using Test
 T, X = car_travel_1D()
 
 # a unit test
