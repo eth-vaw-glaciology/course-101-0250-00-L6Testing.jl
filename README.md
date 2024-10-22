@@ -16,3 +16,6 @@ that commit history retraces that workflow:
 
 Here a link to the commits:
 https://github.com/eth-vaw-glaciology/course-101-0250-00-L6Testing.jl/commits/master
+
+## Julia-actions
+The Julia related actions are defined in [https://github.com/julia-actions](https://github.com/julia-actions), in particular look at the README of [https://github.com/julia-actions/julia-runtest](https://github.com/julia-actions/julia-runtest).
