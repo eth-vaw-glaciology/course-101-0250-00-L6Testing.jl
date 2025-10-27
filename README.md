@@ -2,7 +2,7 @@
 
 # Showcase unit and integration testing
 
-This is for Lecture 6 of course https://pde-on-gpu.vaw.ethz.ch
+This is for Lecture 7 of course https://pde-on-gpu.vaw.ethz.ch
 
 It demonstrates a typical work-flow of mine which I committed such
 that commit history retraces that workflow:
